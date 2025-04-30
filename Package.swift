@@ -11,6 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "ProgressHUD",
+            type: .static,
             targets: ["ProgressHUD"]
         ),
     ],
